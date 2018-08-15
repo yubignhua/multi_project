@@ -1,0 +1,162 @@
+@import "../../../common/assets/css/mixin";
+
+body {
+  background: #F4F6F9;
+  min-width: 1170px;
+  font-size: 14px;
+  overflow-x: hidden;
+}
+
+html, body {
+  height: 100%;
+}
+
+.hide {
+  display: none !important;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.fl {
+  float: left
+}
+
+.fr {
+  float: right
+}
+
+.cy-container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.mt10 {
+  margin-top: 10px;
+}
+
+.mt20 {
+  margin-top: 20px;
+}
+
+.mt30 {
+  margin-top: 30px;
+}
+
+.mt40 {
+  margin-top: 40px;
+}
+
+.mt50 {
+  margin-top: 50px;
+}
+
+.mb10 {
+  margin-bottom: 10px;
+}
+
+.mb20 {
+  margin-bottom: 20px;
+}
+
+.mb30 {
+  margin-bottom: 30px;
+}
+
+.mb40 {
+  margin-bottom: 40px;
+}
+
+.mb50 {
+  margin-bottom: 50px;
+}
+
+.mr10 {
+  margin-right: 10px;
+}
+
+.mr20 {
+  margin-right: 20px;
+}
+
+.mr30 {
+  margin-right: 30px;
+}
+
+.mr40 {
+  margin-right: 40px;
+}
+
+.mr50 {
+  margin-right: 50px;
+}
+
+.ml10 {
+  margin-left: 10px;
+}
+
+.ml20 {
+  margin-left: 20px;
+}
+
+.ml30 {
+  margin-left: 30px;
+}
+
+.ml40 {
+  margin-left: 40px;
+}
+
+.ml50 {
+  margin-left: 50px;
+}
+
+.tr {
+  text-align: right;
+}
+
+.tc {
+  text-align: center;
+}
+
+.minor-color{
+  color: $minorColor;
+}
+
+.main-color{
+  color: $mainColor;
+}
+
+.subject-color{
+  color: $subjectColor;
+}
+
+.regular-color{
+  color: $regularColor;
+}
+
+.text-ell {
+  @include ell()
+}
+
+.cy-wrap {
+  .el-table {
+    color: $mainColor;
+    & th.is-leaf {
+      border-bottom-color: #fafafa;
+    }
+    & td {
+      border-bottom-color: #fafafa;
+    }
+  }
+}
+
+.el-button-normal{
+  width: 98px;
+}
+

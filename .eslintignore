@@ -1,0 +1,9 @@
+/build/
+/config/
+/dist/
+/*.js
+/test/unit/coverage/
+/node-modules/
+/loader/
+/src/assets/utils/qiniu/
+/mock/
